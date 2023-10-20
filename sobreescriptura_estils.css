@@ -1,0 +1,49 @@
+/*1. color general de la lletra negra*/
+body {
+    color: black;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+
+#titol-pagina {
+    background-color: white;
+    color: grey;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+
+
+
+.paragraf1 strong, .paragraf2 strong {
+    color: green;
+    text-decoration: underline;
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+
+.paragraf2 a{
+    font-style: italic;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+
+/*a:
+Canvien els strong i l’h1. Perquè ara l’ordre de carregar els estils de cadascun canvien. 
+Primer es carreguen els que acabem de canviar i després canvien una altra vegada perquè carrega 
+l’arxiu inicial. Els enllaços i footer no canvien perquè no tenien els estils que hem afegit editats.
+El titol h1 no canvia per la prioritat que té l'us de l'id*/
+
+/*b: dels canvis que no s'efectuen, copiem el codi css que no está aplicant i el copiem a l'ultim arxiu que s'está carregant.
+
+
+
+
+
+
